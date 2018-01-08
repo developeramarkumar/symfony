@@ -1,0 +1,11 @@
+api_homepage:
+    path:     /
+    defaults: { _controller: ApiBundle:Default:index }
+
+login:
+    path:     auth
+    defaults: { _controller: ApiBundle:Auth:login }
+
+register:
+    path:     register
+    defaults: { _controller: ApiBundle:Auth:register }
